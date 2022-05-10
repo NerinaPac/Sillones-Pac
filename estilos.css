@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+.div-encabezado-titulo {
+text-align: center;
+margin-top: 1rem;
+}
+
+.nav-lista {
+    list-style: none;
+    margin-top: 1rem;
+    display: flex; 
+    justify-content:space-between;
+    flex-wrap: wrap;
+   
+}
+
+.nav-lista-item{
+    flex-grow: 1;
+    
+    
+}
+
+.nav-lista-item-link {
+    background-color: #d90429;
+    border: 1px solid black;
+    display: block;
+    text-decoration: none;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2b2d42;
+    padding: 1rem;    
+    transition: padding-left 0.8s;
+    
+}
+
+.nav-lista-item-link:hover{
+    background-color: #ef233c;
+    text-decoration: underline;
+    padding-left: 10px;
+
+}
+
+.div-productos{
+    margin-top: 3rem;
+}
+
+.tarjeta1{
+    
+}

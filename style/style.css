@@ -1,37 +1,117 @@
-html {
-    background-color:#D3D3D3;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
 
+img {
+    max-width: 100%;
 }
 
 
-header{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 1rem;
+.logo-h1 {
+    font-size: 2rem;
+}
 
-     
+.header__logo {
+display: flex;
 }
 
 #logo-sillon {
-display: inline-block;
-width: 5rem;
+width: 3rem;
+height: 3rem;
 }
 
-header h1{
-font-size: 200%;
-font-family: 'Sacramento', cursive;
+
+.nav-encabezado{
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
-header nav{
-position: absolute;
-right: 20rem;
-display: inline-block;
-font-size: 120%;
-font-family: 'Libre Bodoni', serif;
+.nav-encabezado-item {
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+.header__nav {
+    display: block;
+    background-color: #d90429;
+    text-decoration: none;
+    font-family: monospace;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #2b2d42;
+    border: 1px groove black ;
+    transition: padding-left 0.8s;
+
+    
+    
+}
+
+.header__nav:hover{
+    background-color: #ef233c;
+    text-decoration: underline;
+   padding-left: 10px;
+    
+}
+
+.portada-encabezado {
+   max-width: 94rem;
 
 }
 
-header img{
-width: 94rem;
+.tarjeta {
+ /*    background-color:chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    transition-property: all 0.3s;
+    
+    
 }
 
+.silloncito {
+    max-width: 50rem;
+    border-radius: 1rem;
+    
+}
+
+.nav-silloncito{
+    opacity: 1;
+    transition-property: opacity;
+    /* esto es el regreso */
+        transition-duration: 2s
+
+}
+
+
+.nav-silloncito:hover{
+        opacity: 0.7;
+     
+}
+
+.sillon-familiar {
+    width: 40rem;
+    border-radius: 1rem;
+height: 19.1rem;
+    
+}
+
+.nav-sillonfamiliar:hover{
+    opacity: 1;
+    transition-property: opacity;
+    /* esto es el regreso */
+        transition-duration: 2s
+
+}
+
+.nav-sillonfamiliar:hover{
+    opacity: 0.7;
+
+}
